@@ -1,0 +1,264 @@
+body{
+
+
+
+}
+#wrapper{
+	max-width: 1250px;
+	height: auto;
+	margin: 0 auto;
+}
+.header{
+	background: url("../images/map.png") no-repeat;
+background-color: #F25222;
+z-index: 2;
+
+}
+.navigationRow{
+	display: flex;
+	justify-content: space-between;
+}
+.leftNav>ul>li:last-child{
+	color: white;
+	font-size: 23px;
+	font-weight: bold;
+		padding-top: 15px;
+}
+.leftNav>ul>li:nth-child(2){
+	color: white;
+	font-size: 23px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+.rightNav{
+	padding: 7px;
+}
+.ulP{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 16px;
+	padding-right: 5px;
+	color: white;
+	float: left;
+}
+.ulP1{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 17px;
+	padding-right: 5px;
+	color: white;
+	float: left;
+}
+.spnanNav{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	padding-right: 25px;
+	padding-top: 12px;
+	padding-left: 3px;
+	float: left;
+}
+.spnanNav1{
+	display: inline;
+	font-weight: bold;
+	font-size: 22px;
+	color: white;
+	padding-top: 13px;
+	padding-right:74px;
+	float: right;
+}
+
+.botSer{
+width: 180px;
+height: 45px;
+border: 0px;
+border-radius: 5px;
+background: #FBC222;
+font-weight: bold;
+font-size: 14px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -8px;
+}
+
+
+
+/*FORM HEADER*/
+.textForm{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.textFormP{
+	padding-right: 55px;
+	color: white;
+	font-weight: bold;
+	font-size: 26px;
+}
+.textFormLi{
+	color: white;
+	font-weight: 200;
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.formozu{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.formCon{
+	height: 250px;
+	background: white;
+
+}
+.botoms{
+	background: #FBC222;
+	height: 75px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 5px;
+	padding-top: 5px;
+}
+
+.content{
+	height: 500px;
+	background:lightgray;
+}
+.contentH1{
+	display: flex;
+	justify-content: center;
+	padding:25px 0;
+	font-weight: 900;
+	font-size: 26px;
+}
+.contentRow{
+	display: flex;
+	justify-content: space-around;
+    height: 130px;
+}
+.contentRow1{
+	display: flex;
+	justify-content: space-around;
+   /* margin-right: 20px;*/
+    height: 130px;
+    margin-top: 20px;
+}
+
+.botInner{
+height: 55px;
+width: 170px;
+float: left;
+margin-left: 550px;
+margin-top: 50px;
+background-color: lightgray;
+text-align: center;
+font-weight: bold;
+font-size: 20px;
+padding-top:15px;
+border: 1px solid #F25222;
+border-radius: 8px;}
+
+.botInner:hover{
+background-color: #F25222;
+color: white;
+}
+.content1, .content2, .content3, .content4
+{
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 7px;
+	padding-bottom:8px;
+}
+.conSPa{
+	position: relative;
+	top: 0px;
+	left:10px;
+	font-weight:bold;
+	font-size: 19px;
+	text-transform: uppercase;
+}
+.conSP{
+	position: relative;
+	top: 0px;
+	left: 10px;
+}
+.content1:hover{
+	border: 2px solid #F25222;
+	box-sizing: border-box;
+	box-shadow: 10;
+}
+.content2:hover{
+	border: 2px solid #F25222;
+	box-sizing: border-box;
+	box-shadow: 10;
+}
+.content3:hover{
+	border: 2px solid #F25222;
+	box-sizing: border-box;
+	box-shadow: 10;
+}
+.content4:hover{
+	border: 2px solid #F25222;
+	box-sizing: border-box;
+	box-shadow: 10;
+}
+
+.contactRow{height: 350px;
+background-color: white;}
+.contactMe{
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 7px;
+	margin-top: 70px;
+	
+}
+.textR{
+	height: 100px;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 7px;
+	margin-top: 20px;
+	font-size: 20px;
+	font-weight: 900;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.footer{
+	background: white;
+
+	height: 100px;
+	
+}
+.footer>ul>li{
+	font-weight: bold;
+	font-size: 16px;
+	display: inline-block;
+	float: right;
+	padding-right: 40px;
+	margin: 9px;
+}
+
+@media only screen and (max-width: 950px){
+	
+.navigationRow,.botInner,.conSPa,.conSP,.textR,.contactMe,.contactRow,.content,.contentRow,.contentRow1,.formozu,.textR,.content1,.content2,.content3,.content4,.footer>ul>li{
+		width: 600px;
+	}
+}
+@media only screen and (max-width: 610px){
+	
+.navigationRow,.botInner,.conSPa,.conSP,.textR,.contactMe,.contactRow,.content,.contentRow,.contentRow1,.formozu,.textR,.content1,.content2,.content3,.content4,.footer>ul>li{
+		width: 320px;
+	}
+}
